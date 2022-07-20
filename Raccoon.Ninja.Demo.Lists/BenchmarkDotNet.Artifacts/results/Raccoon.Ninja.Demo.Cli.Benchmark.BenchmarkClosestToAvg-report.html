@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='utf-8' />
+<title>Raccoon.Ninja.Demo.Cli.Benchmark.BenchmarkClosestToAvg-20220720-105418</title>
+
+<style type="text/css">
+	table { border-collapse: collapse; display: block; width: 100%; overflow: auto; }
+	td, th { padding: 6px 13px; border: 1px solid #ddd; text-align: right; }
+	tr { background-color: #fff; border-top: 1px solid #ccc; }
+	tr:nth-child(even) { background: #f8f8f8; }
+</style>
+</head>
+<body>
+<pre><code>
+BenchmarkDotNet=v0.13.1, OS=ubuntu 20.04
+Intel Core i7-9750H CPU 2.60GHz, 1 CPU, 12 logical and 6 physical cores
+.NET SDK=6.0.300
+  [Host]     : .NET 6.0.5 (6.0.522.21309), X64 RyuJIT
+  DefaultJob : .NET 6.0.5 (6.0.522.21309), X64 RyuJIT
+</code></pre>
+<pre><code></code></pre>
+
+<table>
+<thead><tr><th>                              Method</th><th>Mean</th><th>Error</th><th>StdDev</th><th>Rank</th><th>Gen 0</th><th>Allocated</th>
+</tr>
+</thead><tbody><tr><td>FindClosestToAvgReadingTime_For</td><td>12.20 &mu;s</td><td>0.234 &mu;s</td><td>0.493 &mu;s</td><td>1</td><td>-</td><td>-</td>
+</tr><tr><td>FindClosestToAvgReadingTime_AvgThenOrderBy</td><td>29.83 &mu;s</td><td>0.487 &mu;s</td><td>0.541 &mu;s</td><td>2</td><td>0.0305</td><td>272 B</td>
+</tr></tbody></table>
+</body>
+</html>

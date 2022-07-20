@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Raccoon.Ninja.Demo.Lists.Core", "Raccoon.Ninja.Demo.Lists.Core\Raccoon.Ninja.Demo.Lists.Core.csproj", "{A6ADE667-5488-4966-BC9E-09AE27C57C8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Raccoon.Ninja.Demo.Cli.Playground", "Raccoon.Ninja.Demo.Cli.Playground\Raccoon.Ninja.Demo.Cli.Playground.csproj", "{FC977750-3C74-46F8-AB8D-4CBF983F1559}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Raccoon.Ninja.Demo.Cli.Benchmark", "Raccoon.Ninja.Demo.Cli.Benchmark\Raccoon.Ninja.Demo.Cli.Benchmark.csproj", "{57359645-253F-4CBF-9AAE-D40AEDAD9226}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A6ADE667-5488-4966-BC9E-09AE27C57C8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6ADE667-5488-4966-BC9E-09AE27C57C8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6ADE667-5488-4966-BC9E-09AE27C57C8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6ADE667-5488-4966-BC9E-09AE27C57C8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC977750-3C74-46F8-AB8D-4CBF983F1559}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC977750-3C74-46F8-AB8D-4CBF983F1559}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC977750-3C74-46F8-AB8D-4CBF983F1559}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC977750-3C74-46F8-AB8D-4CBF983F1559}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57359645-253F-4CBF-9AAE-D40AEDAD9226}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57359645-253F-4CBF-9AAE-D40AEDAD9226}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57359645-253F-4CBF-9AAE-D40AEDAD9226}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57359645-253F-4CBF-9AAE-D40AEDAD9226}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
